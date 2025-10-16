@@ -1,0 +1,156 @@
+veri başarıyla yüklendi.
+veri kopyası oluşturuldu.
+satır sayısı: 611108, sütun sayısı: 26
+sütun isimleri:
+['ID', 'ITEMCODE', 'ITEMNAME', 'FICHENO', 'DATE_', 'AMOUNT', 'PRICE', 'LINENETTOTAL', 'LINENET', 'BRANCHNR', 'BRANCH', 'SALESMAN', 'CITY', 'REGION', 'LATITUDE', 'LONGITUDE', 'CLIENTCODE', 'CLIENTNAME', 'BRANDCODE', 'BRAND', 'CATEGORY_NAME1', 'CATEGORY_NAME2', 'CATEGORY_NAME3', 'STARTDATE', 'ENDDATE', 'GENDER']
+veri seti bilgileri:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 611108 entries, 0 to 611107
+Data columns (total 26 columns):
+ #   Column          Non-Null Count   Dtype
+---  ------          --------------   -----
+ 0   ID              611107 non-null  float64
+ 1   ITEMCODE        603941 non-null  float64
+ 2   ITEMNAME        603941 non-null  object
+ 3   FICHENO         611108 non-null  int64
+ 4   DATE_           611107 non-null  datetime64[ns]
+ 5   AMOUNT          611107 non-null  float64
+ 6   PRICE           611107 non-null  float64
+ 7   LINENETTOTAL    611107 non-null  float64
+ 8   LINENET         611107 non-null  float64
+ 9   BRANCHNR        611107 non-null  float64
+ 10  BRANCH          611107 non-null  object
+ 11  SALESMAN        611108 non-null  object
+ 12  CITY            611107 non-null  object
+ 13  REGION          611107 non-null  object
+ 14  LATITUDE        611107 non-null  float64
+ 15  LONGITUDE       611107 non-null  float64
+ 16  CLIENTCODE      592760 non-null  object
+ 17  CLIENTNAME      592743 non-null  object
+ 18  BRANDCODE       575551 non-null  object
+ 19  BRAND           575551 non-null  object
+ 20  CATEGORY_NAME1  603941 non-null  object
+ 21  CATEGORY_NAME2  583448 non-null  object
+ 22  CATEGORY_NAME3  401649 non-null  object
+ 23  STARTDATE       611108 non-null  datetime64[ns]
+ 24  ENDDATE         611108 non-null  datetime64[ns]
+ 25  GENDER          592743 non-null  object
+dtypes: datetime64[ns](3), float64(9), int64(1), object(13)
+memory usage: 121.2+ MB
+None
+boş değer var mı?:
+True
+her sütundaki değer sayısı:
+ID                611107
+ITEMCODE          603941
+ITEMNAME          603941
+FICHENO           611108
+DATE_             611107
+AMOUNT            611107
+PRICE             611107
+LINENETTOTAL      611107
+LINENET           611107
+BRANCHNR          611107
+BRANCH            611107
+SALESMAN          611108
+CITY              611107
+REGION            611107
+LATITUDE          611107
+LONGITUDE         611107
+CLIENTCODE        592760
+CLIENTNAME        592743
+BRANDCODE         575551
+BRAND             575551
+CATEGORY_NAME1    603941
+CATEGORY_NAME2    583448
+CATEGORY_NAME3    401649
+STARTDATE         611108
+ENDDATE           611108
+GENDER            592743
+dtype: int64
+toplam değer sayısı: 15503984
+boş değeri olan sütunlar: ['ID', 'ITEMCODE', 'ITEMNAME', 'DATE_', 'AMOUNT', 'PRICE', 'LINENETTOTAL', 'LINENET', 'BRANCHNR', 'BRANCH', 'CITY', 'REGION', 'LATITUDE', 'LONGITUDE', 'CLIENTCODE', 'CLIENTNAME', 'BRANDCODE', 'BRAND', 'CATEGORY_NAME1', 'CATEGORY_NAME2', 'CATEGORY_NAME3', 'GENDER']
+veri tipleri:
+object            13
+float64            9
+datetime64[ns]     3
+int64              1
+Name: count, dtype: int64
+benzersiz değer sayısı:
+ID                611107
+ITEMCODE            9367
+ITEMNAME            9303
+FICHENO           142612
+DATE_                 89
+AMOUNT              3549
+PRICE               1244
+LINENETTOTAL        3752
+LINENET             4438
+BRANCHNR              81
+BRANCH                81
+SALESMAN            1331
+CITY                  81
+REGION                 7
+LATITUDE              80
+LONGITUDE             80
+CLIENTCODE         49316
+CLIENTNAME         52803
+BRANDCODE            354
+BRAND                354
+CATEGORY_NAME1        12
+CATEGORY_NAME2        63
+CATEGORY_NAME3       155
+STARTDATE         134722
+ENDDATE           137663
+GENDER                 2
+dtype: int64
+        ID  ITEMCODE                         ITEMNAME  FICHENO      DATE_  ...   CATEGORY_NAME2      CATEGORY_NAME3           STARTDATE             ENDDATE  GENDER
+0  11738.0    5863.0  SPRITE 1 LT LIMON AROMALI GAZOZ    18456 2017-01-07  ...     GAZLI İÇECEK               GAZOZ 2017-01-08 16:16:11 2017-01-08 16:17:13       E    
+1  10537.0       8.0                        TOZ SEKER    18105 2017-01-06  ...        ÇAY KAHVE  SEKER TATLANDIRICI 2017-01-07 11:04:34 2017-01-07 11:05:37       E    
+2  11335.0    5979.0             FALIM SAKIZ 5LI NANE    18350 2017-01-03  ...  SAKIZ SEKERLEME               SAKIZ 2017-01-04 14:00:03 2017-01-04 14:01:01       E    
+3  11336.0    5979.0             FALIM SAKIZ 5LI NANE    18350 2017-01-03  ...  SAKIZ SEKERLEME               SAKIZ 2017-01-04 14:00:03 2017-01-04 14:01:01       E    
+4  10115.0   12808.0            FALIM SAKIZ 5LI CILEK    18005 2017-01-05  ...  SAKIZ SEKERLEME               SAKIZ 2017-01-06 14:00:30 2017-01-06 14:01:03       K    
+
+[5 rows x 26 columns]
+              ID  ITEMCODE                  ITEMNAME  FICHENO      DATE_  ...  CATEGORY_NAME2  CATEGORY_NAME3           STARTDATE             ENDDATE  GENDER
+611101  511342.0    6480.0  UNO KEPEKLI EKMEK 470GR.   134601 2017-03-18  ...   UNLU MAMÜLLER           EKMEK 2017-03-19 18:54:51 2017-03-19 18:54:58       E
+611102  512198.0       7.0              EKMEK 250 GR   134742 2017-03-18  ...   UNLU MAMÜLLER           EKMEK 2017-03-19 16:09:39 2017-03-19 16:11:10       E
+611103  511703.0       7.0              EKMEK 250 GR   134656 2017-03-18  ...   UNLU MAMÜLLER           EKMEK 2017-03-19 09:39:54 2017-03-19 09:40:50       E
+611104  511496.0       7.0              EKMEK 250 GR   134630 2017-03-18  ...   UNLU MAMÜLLER           EKMEK 2017-03-19 20:30:58 2017-03-19 20:31:17       K
+611105  492612.0       7.0              EKMEK 250 GR   130100 2017-03-15  ...   UNLU MAMÜLLER           EKMEK 2017-03-16 17:51:04 2017-03-16 17:51:18       E
+611106  512343.0       7.0              EKMEK 250 GR   134762 2017-03-18  ...   UNLU MAMÜLLER           EKMEK 2017-03-19 17:00:12 2017-03-19 17:01:20       K
+611107  512179.0    3942.0    ETI 80 GR KARAM BITTER   134738 2017-03-18  ...   BÜSKİVİ ÇEREZ         BÜSKİVİ 2017-03-19 16:00:15 2017-03-19 16:00:37       K
+
+[7 rows x 26 columns]
+        AMOUNT  PRICE  LINENETTOTAL
+0          1.0   2.00          2.00
+1          5.0   2.65         13.25
+2          1.0   0.40          0.40
+3          1.0   0.40          0.40
+4          1.0   0.40          0.40
+...        ...    ...           ...
+611103     1.0   0.90          0.90
+611104     1.0   0.90          0.90
+611105     1.0   0.90          0.90
+611106     1.0   0.90          0.90
+611107     1.0   1.90          1.90
+
+[611108 rows x 3 columns]
+              ID  ITEMCODE                                   ITEMNAME  FICHENO  ... CATEGORY_NAME3           STARTDATE             ENDDATE  GENDER
+62        9745.0   10429.0                YUDUM AYCICEK YAGI 5 LT TNK    17902  ...        AYÇİÇEK 2017-01-07 14:28:00 2017-01-07 14:29:39       E
+64        3322.0   19108.0             F NEFFIS AYCICEK YAGI 5 LT PET    16540  ...        AYÇİÇEK 2017-01-06 20:08:26 2017-01-06 20:08:39       E
+95        5317.0    6217.0                   LD LODOS DENİZCİSİ SLİMS    16903  ...            NaN 2017-01-06 13:44:22 2017-01-06 13:44:45       K
+239       7783.0    5571.0   WELLA KOLESTON KOPUK BOYA 5/0 ACIK KAHVE    17473  ...   SAÇ BOYALARI 2017-01-07 14:52:34 2017-01-07 14:53:16       E
+250       7611.0    3187.0        F NEFFIS TAZE KASAR PEYNIRI 1000 GR    17450  ...  KAŞAR PEYNİRİ 2017-01-07 20:00:19 2017-01-07 20:04:26       K
+16        9748.0    5715.0                                 PATATES    17902 2017-01-06  ...           SEBZE             NaN 2017-01-07 14:28:00 2017-01-07 14:29:39       E
+62        9745.0   10429.0             YUDUM AYCICEK YAGI 5 LT TNK    17902 2017-01-06  ...     SIVI YAĞLAR         AYÇİÇEK 2017-01-07 14:28:00 2017-01-07 14:29:39       E
+124       9907.0    5710.0                           KIRMIZI BIBER    17945 2017-01-06  ...           SEBZE             NaN 2017-01-07 17:24:07 2017-01-07 17:24:25     NaN
+165       3534.0   23477.0  NOGAY ÖZEL ÜRÜN YAGLI SELE ZEYTINI LUX    16607 2017-01-05  ...          ZEYTİN             NaN 2017-01-06 09:40:58 2017-01-06 09:42:01       K
+...          ...       ...                                     ...      ...        ...  ...             ...             ...                 ...                 ...     ...
+610941  604581.0     132.0              GOZDE KOKTELY SOSIS 500 GR   156739 2017-03-31  ...    ET ŞARKÜTERİ           SOSİS 2017-04-01 16:24:46 2017-04-01 16:25:31       K
+610942  604582.0     132.0              GOZDE KOKTELY SOSIS 500 GR   156739 2017-03-31  ...    ET ŞARKÜTERİ           SOSİS 2017-04-01 16:24:46 2017-04-01 16:25:31       K
+611049  604585.0    5694.0                                 DOMATES   156739 2017-03-31  ...           SEBZE             NaN 2017-04-01 16:24:46 2017-04-01 16:25:31       K
+611085  511252.0     195.0            ULKER PIKNIK KAKAOLU 3*70 GR   134582 2017-03-18  ...   BÜSKİVİ ÇEREZ         BÜSKİVİ 2017-03-19 17:51:42 2017-03-19 17:52:13       K
+611093  511278.0   18219.0                SULTAN KEP.BUGDAY EKMEGI   134590 2017-03-18  ...   UNLU MAMÜLLER           EKMEK 2017-03-19 18:09:02 2017-03-19 18:09:23       K
+
+[9428 rows x 26 columns]
